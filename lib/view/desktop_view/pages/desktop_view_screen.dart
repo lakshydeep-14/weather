@@ -72,7 +72,7 @@ class _DesktopViewScreenState extends State<DesktopViewScreen> {
                             temp: weatherController.fetching.value == true
                                 ? "0"
                                 : (weatherController.temperature.value))),
-                        WeatherData(data: "Mostly Sunny"),
+                        const WeatherData(data: "Mostly Sunny"),
                       ],
                     ),
                   ),

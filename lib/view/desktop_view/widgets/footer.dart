@@ -1,5 +1,4 @@
 import 'package:fatdog/core/configs/extenstion.dart';
-import 'package:flutter/material.dart';
 
 class Footer extends StatefulWidget {
   const Footer({super.key});

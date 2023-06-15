@@ -1,6 +1,4 @@
 import 'package:fatdog/view/desktop_view/widgets/sun_logo.dart';
-import 'package:flutter/material.dart';
-
 import '../../../core/configs/extenstion.dart';
 
 class TempWid extends StatefulWidget {
@@ -103,7 +101,6 @@ class _TempWidState extends State<TempWid> {
                     )
                   ],
                 ),
-
                 Row(
                   children: [
                     Column(
@@ -133,7 +130,6 @@ class _TempWidState extends State<TempWid> {
                     ),
                   ],
                 ),
-                //SunImage()
               ],
             ),
     );

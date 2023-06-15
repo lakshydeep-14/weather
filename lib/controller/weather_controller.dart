@@ -62,7 +62,6 @@ class WeatherController extends GetxController {
   getTemperature(Position position) async {
     final response = await Dio().get(
         '${apiURL}lat=${position.latitude}&lon=${position.longitude}&units=metric&appid=$weatherAPIkey');
-    //final result = GetWeatherModel.fromJson(response.data);
     double temp = response.data['main']['temp'];
     if (isDesktop.value == true) {
       address.value =

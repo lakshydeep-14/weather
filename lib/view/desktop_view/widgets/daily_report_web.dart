@@ -1,15 +1,13 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:fatdog/core/configs/extenstion.dart';
 
-import '../../../core/widgets/daily_report.dart';
-
 class DailyReportWeb extends StatelessWidget {
   const DailyReportWeb({super.key});
 
   @override
   Widget build(BuildContext context) {
     return context.deviceWidth < 873
-        ? DailyReport()
+        ? const DailyReport()
         : Container(
             margin: const EdgeInsets.symmetric(vertical: 15).copyWith(left: 5),
             child: Expanded(
@@ -28,7 +26,8 @@ class DailyReportWeb extends StatelessWidget {
                               color: AppColors.white.withOpacity(0.32),
                               width: 1,
                             ),
-                            borderRadius: BorderRadius.all(Radius.circular(20)),
+                            borderRadius:
+                                const BorderRadius.all(Radius.circular(20)),
                             color: AppColors.background),
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -42,7 +41,7 @@ class DailyReportWeb extends StatelessWidget {
                                     width: 30,
                                     color: AppColors.yellow,
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     width: 10,
                                   ),
                                   Text(

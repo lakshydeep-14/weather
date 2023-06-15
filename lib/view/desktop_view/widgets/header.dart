@@ -1,6 +1,4 @@
 import 'package:fatdog/core/configs/extenstion.dart';
-import '../../../core/widgets/logo_wid.dart';
-import '../../../core/widgets/search_texfield.dart';
 
 class Header extends StatefulWidget {
   const Header({super.key});
